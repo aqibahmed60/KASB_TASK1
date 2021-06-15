@@ -1,0 +1,12 @@
+C:\Users\Iqra\source\repos\BookStoreAPI1\Bookstore.Data\bin\Debug\net5.0\Bookstore.Data.deps.json
+C:\Users\Iqra\source\repos\BookStoreAPI1\Bookstore.Data\bin\Debug\net5.0\Bookstore.Data.dll
+C:\Users\Iqra\source\repos\BookStoreAPI1\Bookstore.Data\bin\Debug\net5.0\ref\Bookstore.Data.dll
+C:\Users\Iqra\source\repos\BookStoreAPI1\Bookstore.Data\bin\Debug\net5.0\Bookstore.Data.pdb
+C:\Users\Iqra\source\repos\BookStoreAPI1\Bookstore.Data\obj\Debug\net5.0\Bookstore.Data.csproj.AssemblyReference.cache
+C:\Users\Iqra\source\repos\BookStoreAPI1\Bookstore.Data\obj\Debug\net5.0\Bookstore.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Iqra\source\repos\BookStoreAPI1\Bookstore.Data\obj\Debug\net5.0\Bookstore.Data.AssemblyInfoInputs.cache
+C:\Users\Iqra\source\repos\BookStoreAPI1\Bookstore.Data\obj\Debug\net5.0\Bookstore.Data.AssemblyInfo.cs
+C:\Users\Iqra\source\repos\BookStoreAPI1\Bookstore.Data\obj\Debug\net5.0\Bookstore.Data.csproj.CoreCompileInputs.cache
+C:\Users\Iqra\source\repos\BookStoreAPI1\Bookstore.Data\obj\Debug\net5.0\Bookstore.Data.dll
+C:\Users\Iqra\source\repos\BookStoreAPI1\Bookstore.Data\obj\Debug\net5.0\ref\Bookstore.Data.dll
+C:\Users\Iqra\source\repos\BookStoreAPI1\Bookstore.Data\obj\Debug\net5.0\Bookstore.Data.pdb

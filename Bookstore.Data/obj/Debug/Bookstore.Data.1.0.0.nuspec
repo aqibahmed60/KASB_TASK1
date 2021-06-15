@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Bookstore.Data</id>
+    <version>1.0.0</version>
+    <authors>Bookstore.Data</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Iqra\source\repos\BookStoreAPI1\Bookstore.Data\bin\Debug\net5.0\Bookstore.Data.dll" target="lib\net5.0\Bookstore.Data.dll" />
+  </files>
+</package>
