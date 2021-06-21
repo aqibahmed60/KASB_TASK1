@@ -55,6 +55,16 @@ namespace BookStoreAPI1
 
             app.UseHttpsRedirection();
 
+            app.UseCors
+            (
+                options => options.WithOrigins("https://localhost:44316")
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                .AllowCredentials() 
+                
+             );
+
+
             app.UseRouting();
 
             app.UseAuthorization();
