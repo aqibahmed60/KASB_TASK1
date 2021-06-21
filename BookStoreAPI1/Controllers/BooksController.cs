@@ -57,7 +57,7 @@ namespace BookStoreAPI1.Controllers
 
         [HttpPost]
 
-        public ActionResult<Book> PostBook(Book book)
+        public ActionResult<Book> PostBook([FromForm]Book book)
         {
             if (books.AddNewBook(book))
             {
@@ -81,7 +81,7 @@ namespace BookStoreAPI1.Controllers
 
         [HttpPut ("{id}")] 
 
-        public ActionResult<IEnumerable<Book>> UpdateBook (int id, Book book)
+        public ActionResult<IEnumerable<Book>> UpdateBook (int id, [FromForm]Book book)
         {
             var ubook = books.UpdateBook(id, book); 
 

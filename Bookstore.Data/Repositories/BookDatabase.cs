@@ -39,6 +39,11 @@ namespace Bookstore.Data.Repositories
             return db.Books.FirstOrDefault(x => x.Id == id);
         }
 
+        public Book GetBookByAuthor(string name)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool Remove(int id)
         {
             var book = GetBook(id); 
@@ -55,12 +60,19 @@ namespace Bookstore.Data.Repositories
 
         public List<Book> UpdateBook(int id, Book book)
         {
-            if (this.Remove (id))
+            var ModifyBook = GetBook(id);
+
+            if (ModifyBook != null)
             {
-                this.AddNewBook(book);
+                ModifyBook.Title = book.Title;
+                ModifyBook.Author = book.Author;
+                ModifyBook.PublicationYear = book.PublicationYear;
+                ModifyBook.IsAvailaible = book.IsAvailaible;
+                ModifyBook.CallNumber = book.CallNumber;
+
                 db.SaveChanges();
-                return db.Books.ToList();
             }
+
 
             return db.Books.ToList();
         }

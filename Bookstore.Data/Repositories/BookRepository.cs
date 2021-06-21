@@ -38,6 +38,11 @@ namespace Bookstore.Data.Repositories
             return books.FirstOrDefault(x => x.Id == id);
         }
 
+        public Book GetBookByAuthor(string name)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool Remove(int id)
         {
             throw new NotImplementedException();

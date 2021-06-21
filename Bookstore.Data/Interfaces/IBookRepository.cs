@@ -19,6 +19,8 @@ namespace Bookstore.Data.Interfaces
 
         List<Book> UpdateBook(int id, Book Book);
 
+        Book GetBookByAuthor(string name);
+
 
     }
 }

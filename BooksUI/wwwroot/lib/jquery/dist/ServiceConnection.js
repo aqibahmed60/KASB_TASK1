@@ -58,13 +58,14 @@
     });
 
 
+
     $('#AddBook').on('click', function () {
         //form encoded data
         //var dataType = 'application/x-www-form-urlencoded; charset=utf-8';
         var inputData = $('input').serialize();
         //alert(inputData);
         $.ajax({
-            url: serviceUrl + '/books',
+            url: serviceUrl + '/Books',
             method: 'POST',
             //contentType: dataType,
             data: JSON.stringify(inputData),
@@ -79,7 +80,7 @@
         //var inputData = $('input').serialize();
         var bookId = $('#id').val();
         $.ajax({
-            url: serviceUrl + '/books/' + bookId,
+            url: serviceUrl + '/Books/' + bookId,
             method: 'GET',
             //data: inputData,
             success: function (data) {
@@ -88,16 +89,15 @@
         });
     });
 
-
-    $('#AddCost').on('click', function () {
-        var dataType = 'application/x-www-form-urlencoded; charset=utf-8';
-        var inputdata = $('input').serialize();
+    $('#UpdateBook').on('click', function () {
+        var inputData = $('input').serialize();
+        var bookId = $('#id').val();
         $.ajax({
-            url: serviceUrl + '/books/updatecost/' + $('#BookId').val(),
+            url: serviceUrl + '/Books/' + bookId,
             method: 'PUT',
-            data: inputdata,
+            data: inputData,
             success: function (data) {
-                DisplayResult2("Add Cost", data);
+                DisplayResult2("Update Book:", data);
             }
         });
     });
